@@ -1,0 +1,23 @@
+Link: https://codegnan.com/machine-learning-projects/#h-8-medical-insurance-price-prediction-nbsp
+
+Medical insurance price prediction: -
+
+Learning outcomes: 
+
+-> Basic knowledge of Machine Learning and Python coding: Learn how Machine Learning works and how to implement
+Python libraries in ML projects
+
+-> Data preprocessing: Understanding how to import and clean datasets, 
+handle missing values, and encode categorical variables 
+
+-> Exploratory Data Analysis EDA: Knowledge of analyzing datasets using Python libraries to find out relationships
+ between the features and target variable 
+
+-> Model selection: Understanding different supervised learning algorithms like linear regression, 
+decision trees, random forests, etc., and choosing the appropriate one
+
+-> Model performance evaluation: Use different evaluation metrics to check the model performance and 
+optimize it for better results 
+
+-> Ensemble Methods and Boosting: Implementing different ensemble techniques like bagging and boosting to 
+improve the predictive ability of the model
