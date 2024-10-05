@@ -8,3 +8,5 @@ def presentData():
 
 
     st.dataframe(dataSet, width=800, height=400)
+    total_records = len(dataSet)
+    print(f"**The total number of records: {total_records}**")
