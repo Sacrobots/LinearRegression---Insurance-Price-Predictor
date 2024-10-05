@@ -19,7 +19,7 @@ def main_page():
 
 
 def page2():
-    st.title("**Graphical Representation Chart**")
+    st.title("**Graphical Representation Chart 📊**")
     st.sidebar.markdown("**Original CSV Charts Representation 📊**")
     Graphs(first)
 
