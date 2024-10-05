@@ -19,7 +19,7 @@ def main_page():
 
 
 def page2():
-    st.title("**Graphical Representation Chart 📊**")
+    st.title("**Graphical Representation Chart**")
     st.sidebar.markdown("**Original CSV Charts Representation 📊**")
     Graphs(first)
 
@@ -32,8 +32,8 @@ def page3():
 
 page_names_to_funcs = {
     "Insurance Price Predicator 🔰": main_page,
-    "Graphical Representation": page2,
-    "Contents Of Original CSV File": page3
+    "Graphical Representation 📊": page2,
+    "Contents Of Original CSV File 📋": page3
 }
 
 selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
