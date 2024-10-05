@@ -6,7 +6,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import joblib
-import plotly.express as plt
 import datetime
 # Data Preprocessing
 
