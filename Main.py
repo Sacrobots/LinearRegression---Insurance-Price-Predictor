@@ -36,6 +36,6 @@ page_names_to_funcs = {
     "Contents Of Original CSV File 📋": page3
 }
 
-selected_page = st.sidebar.selectbox("**Select Dropdown Options**", page_names_to_funcs.keys())
+selected_page = st.sidebar.selectbox("**Choose Dropdown Choices**", page_names_to_funcs.keys())
 
 page_names_to_funcs[selected_page]()
