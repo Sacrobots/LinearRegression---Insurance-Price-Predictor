@@ -72,10 +72,14 @@ def  Answer(Age, Sex, BMI, NOC, Smoker, Region):
     prediction = model.predict(input_data_reshaped)
 
     print("The person will get insurance money = ",prediction[0])
-    
+    charge = prediction[0]
+
+    if charge < 0:
+        charge = 0        
+
     st.markdown("──────────────────────── ⋆⋅☆⋅⋆ ────────────────────────\n")
-    st.write(f"**--⪢ Adjust the estimated amount post-submission: ${int(prediction[0])}**")
-    st.markdown("──────────────────────── ⋆⋅☆⋅⋆ ────────────────────────\n")    
+    st.write(f"**--⪢ Adjust the estimated amount post-submission: ${int(charge)}**")
+    st.markdown("──────────────────────── ⋆⋅☆⋅⋆ ────────────────────────\n")   
     
 
 
