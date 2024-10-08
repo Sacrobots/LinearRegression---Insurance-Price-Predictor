@@ -1,5 +1,3 @@
-Link: https://codegnan.com/machine-learning-projects/#h-8-medical-insurance-price-prediction-nbsp
-
 Medical insurance price prediction: -
 
 Learning outcomes: 
